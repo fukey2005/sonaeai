@@ -1,0 +1,42 @@
+name: neo_jichikai
+description: "そなえあい — 大島六丁目団地の備えと助け合い。"
+publish_to: 'none'
+version: 1.0.0+13
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_map: ^8.3.2
+  geolocator: ^14.1.2
+  hive_ce_flutter: ^2.6.0
+  image_picker: ^1.2.4
+  latlong2: ^0.10.1
+  share_plus: ^13.3.1
+  url_launcher: ^6.3.3
+
+dependency_overrides:
+  # The FFI iOS implementation needs xcode-select to point at Xcode globally.
+  # Keep the Swift plugin so per-build DEVELOPER_DIR selection also works.
+  path_provider_foundation: 2.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  config:
+    enable-swift-package-manager: true
+  uses-material-design: true
+  assets:
+    - assets/samples/
+  fonts:
+    - family: NotoSansJP
+      fonts:
+        - asset: assets/fonts/NotoSansJP.ttf

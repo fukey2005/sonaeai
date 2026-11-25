@@ -1,0 +1,7 @@
+Use case: logo-brand.
+Create ONE finished 1024x1024 opaque square mobile app icon for a community disaster-preparedness UI prototype whose name is undecided.
+Use the supplied Tokyo Bousai book cover only as a reference for a vivid yellow-and-charcoal palette and bold geometric visual language.
+The icon must contain ABSOLUTELY NO TEXT: no Japanese, no letters, no numbers, no slogans, no wordmarks, no book-cover typography.
+A single very clear near-black geometric pictogram: a protective shield enclosing three simple neighboring house rooftops, communicating local community and preparedness. Use thick, crisp, consistent geometric lines and generous interior negative space so the symbol remains recognizable at 32 px.
+Solid vivid yellow background (#FFDA00), near-black (#222222) symbol. A restrained horizontal diagonal black/yellow warning stripe motif may occupy the bottom 16% and must remain separate from the main shield. Center the shield in the upper 70%, with at least 14% safe margins for iOS masking.
+Flat vector-like graphic, exact square, fully opaque, no rounded icon border, no shadows, gradients, textures, mascot, check mark, or mockup. Do not reproduce the reference's mascot or any writing.
